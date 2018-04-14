@@ -1,0 +1,10 @@
+name: 001-hello
+title:
+username:
+account: fredcorpuz06
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 322270
+bundleId: 1318584
+url: https://fredcorpuz06.shinyapps.io/001-hello/
+when: 1523723206.34393
