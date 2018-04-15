@@ -33,7 +33,7 @@ library(quantmod)
 ##### Shiny #####
 
 
-load('data/datafest_data.RData')
+load('C:/Users/fredcorpuz06/Desktop/repos/datafest18/data/datafest_data.RData')
 
 us_data$normTitle %>% unique %>% .[!is.na(.)] -> job_titles
 getJobTimePlots <- function(data, job) {
@@ -360,7 +360,7 @@ server <- function(input, output) {
 shinyApp(ui, server)
 
 
-rsconnect::deployApp('./output/where-when')
+# rsconnect::deployApp('./output/where-when')
 
 
 
