@@ -1,5 +1,5 @@
 # Datafest18
-
+![Demo GIF](./output/datafest18.gif)
 
 ## Overview
 As part of [DataFest 2018](http://datafest.blogs.wesleyan.edu/2018/04/10/thats-a-wrap-on-datafest-2018/), our team created an RShiny App that helps job seekers know **where** and **when** they should be looking for their dream job. 
@@ -36,7 +36,7 @@ Here is an image with summary statistics of all the variables provided
 
 ### Data Manipulation
 * We imputed *industry* with a random forest because 90% of the data was missing. We used the normalized job title as predictors 
-* We 
+
 
 ## WebApp Functionalities
 
